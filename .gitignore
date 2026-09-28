@@ -1,0 +1,36 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+*.env
+!.env.example
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node & Frontend dependencies and build outputs
+node_modules/
+dist/
+build/
+.next/
+out/
+*.tsbuildinfo
+
+# Local database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Operating System and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
